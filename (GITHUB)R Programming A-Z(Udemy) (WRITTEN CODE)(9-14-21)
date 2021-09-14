@@ -1,0 +1,30 @@
+#1.1 Types of Variables
+#9-14-21
+
+#This lesson is explaining the 5 main data types in R. They can also be called the atomic data types
+
+
+#integer
+x <- 2L # The <- is the assignment operator in R. It is assigning the value of 2 to X
+      #If we do not insert a "L" after the integer variable than it will store it as a double by default. The "L" tells R to store it as a integer.
+typeof(x)   #typeof() checks the type of variable. In this case it was an integer
+
+#double
+y <- 2.5
+typeof(y)
+
+#complex
+z <- 3 + 2i
+typeof(z)
+
+#character
+a <- "h"
+typeof(a)
+
+#logical 
+q1 <- T
+typeof(q1)
+q2 <- FALSE
+typeof(q2)
+
+
